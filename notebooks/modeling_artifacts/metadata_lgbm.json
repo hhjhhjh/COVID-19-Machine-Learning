@@ -1,0 +1,43 @@
+{
+  "selected_run": 3,
+  "best_val_auc": 0.9236702404938149,
+  "best_threshold(F1)": 0.825,
+  "fixed_best_params": {
+    "colsample_bytree": 0.8,
+    "min_child_samples": 20,
+    "num_leaves": 31,
+    "reg_lambda": 1.0,
+    "subsample": 0.8
+  },
+  "n_runs": 10,
+  "run_records_top3": [
+    {
+      "run": 3,
+      "val_auc": 0.9236702404938149,
+      "val_acc@0.5": 0.8412750637770308,
+      "val_f1@0.5": 0.44688522955750154,
+      "val_recall@0.5": 0.8738059652998895,
+      "val_precision@0.5": 0.3002098589033756,
+      "best_iteration": 88
+    },
+    {
+      "run": 2,
+      "val_auc": 0.9236440315152401,
+      "val_acc@0.5": 0.8405502706053454,
+      "val_f1@0.5": 0.4457777409463827,
+      "val_recall@0.5": 0.8738709467801676,
+      "val_precision@0.5": 0.29920348863080143,
+      "best_iteration": 81
+    },
+    {
+      "run": 1,
+      "val_auc": 0.9236406746994266,
+      "val_acc@0.5": 0.8405311971008274,
+      "val_f1@0.5": 0.4458767584047189,
+      "val_recall@0.5": 0.8743258171421145,
+      "val_precision@0.5": 0.29923939151321055,
+      "best_iteration": 70
+    }
+  ],
+  "best_iteration": 0
+}
