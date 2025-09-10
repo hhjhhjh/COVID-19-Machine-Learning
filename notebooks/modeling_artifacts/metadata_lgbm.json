@@ -1,42 +1,42 @@
 {
-  "selected_run": 3,
-  "best_val_auc": 0.9236702404938149,
+  "selected_run": 2,
+  "best_val_auc": 0.9336828653314575,
   "best_threshold(F1)": 0.825,
   "fixed_best_params": {
     "colsample_bytree": 0.8,
-    "min_child_samples": 20,
+    "min_child_samples": 100,
     "num_leaves": 31,
-    "reg_lambda": 1.0,
+    "reg_lambda": 0.0,
     "subsample": 0.8
   },
   "n_runs": 10,
   "run_records_top3": [
     {
-      "run": 3,
-      "val_auc": 0.9236702404938149,
-      "val_acc@0.5": 0.8412750637770308,
-      "val_f1@0.5": 0.44688522955750154,
-      "val_recall@0.5": 0.8738059652998895,
-      "val_precision@0.5": 0.3002098589033756,
-      "best_iteration": 88
-    },
-    {
       "run": 2,
-      "val_auc": 0.9236440315152401,
-      "val_acc@0.5": 0.8405502706053454,
-      "val_f1@0.5": 0.4457777409463827,
-      "val_recall@0.5": 0.8738709467801676,
-      "val_precision@0.5": 0.29920348863080143,
-      "best_iteration": 81
+      "val_auc": 0.9336828653314575,
+      "val_acc@0.5": 0.8461817228142956,
+      "val_f1@0.5": 0.4583948959032908,
+      "val_recall@0.5": 0.8870621872766261,
+      "val_precision@0.5": 0.3090489235018451,
+      "best_iteration": 89
     },
     {
-      "run": 1,
-      "val_auc": 0.9236406746994266,
-      "val_acc@0.5": 0.8405311971008274,
-      "val_f1@0.5": 0.4458767584047189,
-      "val_recall@0.5": 0.8743258171421145,
-      "val_precision@0.5": 0.29923939151321055,
-      "best_iteration": 70
+      "run": 6,
+      "val_auc": 0.9336676873475589,
+      "val_acc@0.5": 0.8472212288105285,
+      "val_f1@0.5": 0.4596417850035417,
+      "val_recall@0.5": 0.8855026317499513,
+      "val_precision@0.5": 0.31037467258854345,
+      "best_iteration": 96
+    },
+    {
+      "run": 4,
+      "val_auc": 0.9336643927290599,
+      "val_acc@0.5": 0.8469971151324417,
+      "val_f1@0.5": 0.45896774411115043,
+      "val_recall@0.5": 0.8843979465852232,
+      "val_precision@0.5": 0.30989571474110844,
+      "best_iteration": 84
     }
   ],
   "best_iteration": 0
